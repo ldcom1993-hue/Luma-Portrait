@@ -20,3 +20,7 @@ Les portraits avant/après sont des exemples illustratifs fournis pour la vitrin
 `node --check dist/script.js`
 
 Les contrôles de livraison vérifient les assets, ancres, navigation, la logique des curseurs et la concordance avec la charte. La validation visuelle dans un navigateur reste à compléter lorsque le navigateur de contrôle est disponible.
+
+## Illustrations
+
+Les deux visuels fournis sont conservés dans `assets-source/illustrations/`. Les versions WebP servies par le site sont dans `dist/assets/illustrations/` : douze portraits indépendants et le parcours complet avec six découpes de la borne. La mosaïque se réorganise sur 6, 4 ou 3 colonnes. Le parcours passe de l’illustration complète à six étapes HTML lisibles sous 1 100 px ; les textes restent accessibles aux lecteurs d’écran sur tous les formats. Les images sont chargées à la demande et ne nécessitent aucune génération côté navigateur.
