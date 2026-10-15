@@ -50,3 +50,26 @@
 
 /* Sections éditoriales Luma — dans la continuité de la charte existante */
 .results-brand{max-width:920px;margin:32px auto 0;display:grid;grid-template-columns:1fr 1fr;gap:32px;font-size:13px;line-height:1.9;color:var(--muted)}.results-brand strong{color:var(--ink)}.benefit-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:26px;margin-top:48px}.benefit-grid article{padding:28px 22px;background:var(--soft);border-radius:4px}.benefit-grid h3{font-size:21px;margin:18px 0 15px}.benefit-grid p{font-size:12px;color:var(--muted);line-height:1.85}.story{background:#fafafa}.story-inner{display:grid;grid-template-columns:1fr 1fr;gap:75px}.story-copy p{font-size:13px;color:var(--muted);line-height:1.9;margin-bottom:15px}.story-copy strong{color:var(--ink)}.story-copy .story-signature{color:var(--purple);font-weight:600;margin-top:24px}.solution{scroll-margin-top:100px}@media(max-width:1100px){.benefit-grid{grid-template-columns:repeat(2,1fr)}.header nav{gap:12px;font-size:10px}}@media(max-width:760px){.results-brand,.story-inner{grid-template-columns:1fr;gap:20px}.benefit-grid{grid-template-columns:1fr;gap:14px;margin-top:30px}.benefit-grid article{padding:22px}.story-copy{margin-top:10px}}
+
+/* The supplied journey stays whole on large screens; mobile uses six readable steps. */
+.journey-overview{border-radius:8px;overflow:hidden;background:#fcfaf9}
+.journey-overview img{width:100%;height:auto}
+.journey-caption{font-size:10px;color:#bdb7c8;margin-top:18px}
+.journey-cards{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.journey-cards li{min-width:0;padding:24px;background:#fcfaf9;color:var(--ink);border-radius:7px;display:flex;flex-direction:column;gap:22px}
+.journey-cards .step-number{display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;border-radius:50%;background:var(--purple);color:white}
+.journey-cards h3{font-size:23px;margin:17px 0 12px}
+.journey-cards p{font-size:12px;line-height:1.8;color:var(--muted)}
+.journey-cards img{width:100%;height:260px;object-fit:contain;margin-top:auto}
+.team-gallery{margin-top:72px;padding-top:48px;border-top:1px solid #e7e3eb}
+.team-gallery-heading{display:flex;justify-content:space-between;align-items:end;gap:28px;margin-bottom:30px}
+.team-gallery h3{font-size:clamp(28px,3vw,43px);line-height:1.15}
+.team-gallery h3 span{color:var(--purple)}
+.team-gallery-heading p{font-size:12px;color:var(--muted);line-height:1.9}
+.portrait-wall{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:10px}
+.portrait-wall img{width:100%;height:auto;border-radius:3px}
+.team-gallery .example-note{margin-top:16px}
+@media(min-width:1100px){.journey-cards,.journey-heading{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0,0,0,0);clip-path:inset(50%);white-space:nowrap;border:0}.journey-cards img{display:none}}
+@media(max-width:1099px){.journey-overview{display:none}.portrait-wall{grid-template-columns:repeat(4,minmax(0,1fr))}.team-gallery-heading{align-items:start;flex-direction:column;gap:16px}}
+@media(max-width:760px){.journey-cards{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.journey-cards li{padding:22px 18px}.journey-cards h3{font-size:21px}.journey-cards img{height:240px}.team-gallery{margin-top:42px;padding-top:32px}.team-gallery-heading{margin-bottom:24px}.portrait-wall{grid-template-columns:repeat(3,minmax(0,1fr));gap:7px}.team-gallery-heading p{font-size:11px}.team-gallery-heading p br{display:none}}
+@media(max-width:540px){.journey-cards{grid-template-columns:minmax(0,1fr)}.journey-cards li{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.85fr);gap:16px;align-items:center;padding:22px 17px}.journey-cards img{height:235px;margin:0}.journey-cards h3{font-size:20px}.journey-cards p{font-size:11px}.journey-cards .step-number{width:30px;height:30px}.journey-caption{font-size:9px}}
